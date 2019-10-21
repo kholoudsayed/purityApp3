@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "530259515419",
+    "firebase_url": "https://appp-344e3.firebaseio.com",
+    "project_id": "appp-344e3",
+    "storage_bucket": "appp-344e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530259515419:android:9294c81b183169dbad80be",
+        "android_client_info": {
+          "package_name": "com.example.kholoud.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530259515419-7rqovqle57daon9adrvss63u47uaoc99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLUdgm13bIFgShGdQaRO6Vw78cS56AQfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530259515419-7rqovqle57daon9adrvss63u47uaoc99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

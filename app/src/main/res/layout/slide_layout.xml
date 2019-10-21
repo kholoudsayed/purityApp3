@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/Slide_header"
+
+    >
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Slide_header"
+        android:layout_marginTop="30dp"
+        android:text="sdn,mfn,mfns,mnf,mnf,msn ,msnfns,mnf ,nmfksfjlkj lkjflkfjs klljlkjfds kljlf"
+        android:textSize="20sp" />
+
+
+</ScrollView>
+
+
+    <TextView
+        android:id="@+id/Slide_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:padding="25dp"
+
+        android:layout_below="@+id/Image_Slid"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Heading"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Image_Slid"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        app:srcCompat="@drawable/backyard" />
+</RelativeLayout>

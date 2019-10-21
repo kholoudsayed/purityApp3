@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_event"
+        android:enabled="true"
+        android:title="event"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+    <item
+        android:id="@+id/action_Profile"
+        android:enabled="true"
+        android:title="Litter"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/action_sitting"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="setting"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+</menu>

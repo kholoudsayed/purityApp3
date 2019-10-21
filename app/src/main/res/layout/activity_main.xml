@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kholoud.app.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+
+            android:id="@+id/LocationSignImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="303dp"
+            android:layout_marginStart="140dp"
+
+            android:layout_marginTop="121dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/tt"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/ImageSend"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="99dp"
+            android:layout_marginTop="337dp"
+            android:src="@drawable/send"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.example.kholoud.app.CurvedBottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:foregroundGravity="bottom|center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        </com.example.kholoud.app.CurvedBottomNavigationView>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <RelativeLayout
+
+        android:id="@+id/lin_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="30dp"
+        android:background="@drawable/oval">
+
+
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:id="@+id/feb1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="12dp"
+            android:elevation="6dp"
+            android:visibility="gone"
+            app:vector_src="@drawable/ic_dashboard_black_24dp" />
+
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:id="@+id/feb2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="12dp"
+            android:elevation="5dp"
+
+            app:vector_src="@drawable/ic_delete_black_24dp"
+
+            />
+
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:id="@+id/feb3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="12dp"
+            android:elevation="6dp"
+            android:visibility="gone"
+            app:vector_src="@drawable/ic_settings_black_24dp" />
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

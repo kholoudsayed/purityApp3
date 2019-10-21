@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context="com.example.kholoud.app.ConnectUsActivity"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_round"
+        >
+<TextView
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:text="to :"
+    android:textStyle="bold"
+    android:textColor="@color/colorPurple"
+    android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_to"
+            android:hint="kholoudsayed621@mail.com"
+            android:textStyle="bold"
+
+            android:textColor="@color/colorPurple"/>
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_subject"
+        android:hint="subject"
+        android:textColor="@color/colorAccent"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_round"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/et_message"
+        android:hint="message "
+        android:gravity="top"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_round"
+        />
+
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circlet"
+        android:padding="10dp"
+        android:text="Send"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp" />
+</LinearLayout>
