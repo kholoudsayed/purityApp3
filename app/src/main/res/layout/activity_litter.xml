@@ -113,7 +113,7 @@
           android:layout_width="150dp"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="Number bags :"
+          android:text="@string/number_bags"
           android:textColor="@color/colorPurple"
           android:textSize="20dp"
           android:textStyle="bold" />
@@ -148,7 +148,7 @@
           android:layout_width="100dp"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="Litter type:"
+          android:text="@string/litter_type"
           android:textColor="@color/colorPurple"
           android:textSize="20dp"
           android:textStyle="bold" />
@@ -157,7 +157,7 @@
           android:id="@+id/et_typebags"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:hint="Plastic,Metal,glass  or mixed "
+          android:hint="@string/plastic_metal_glass_or_mixed"
           android:textColor="@color/colorPurple"
 
           android:textStyle="bold" />
@@ -173,7 +173,6 @@
        android:layout_marginBottom="16dp"
        android:layout_marginStart="36dp"
        android:text="Submit"
-       android:onClick="ShowPopup"
 
        android:textColor="@color/white"
        app:layout_constraintBottom_toBottomOf="parent"

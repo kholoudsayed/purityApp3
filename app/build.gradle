@@ -5,7 +5,8 @@ android {
         config {
             keyAlias 'kholoud sayed'
             keyPassword 'purityKholoud'
-            storeFile file('C:/Users/kholoud/Desktop/PURITY AND/keystore.jks')
+
+            storeFile file('../release.jks')
             storePassword 'purityKholoud'
         }
     }

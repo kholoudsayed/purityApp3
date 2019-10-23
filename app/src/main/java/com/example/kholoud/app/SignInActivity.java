@@ -54,14 +54,14 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                 FirebaseUser mFirebaseUser =mFirebaseAuth.getCurrentUser();
 
                 if(mFirebaseUser != null ) {
-                    Toast.makeText(SignInActivity.this, "You Are Logged in. ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignInActivity.this, R.string.YouAreLoggedin , Toast.LENGTH_SHORT).show();
 
                     Intent i = new Intent(SignInActivity.this, MainActivity.class);
                     startActivity(i);
                 }
                 else
                 {
-                    Toast.makeText(SignInActivity.this, "Please Log in  ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignInActivity.this, R.string.PleaseLogin, Toast.LENGTH_SHORT).show();
 
                 }
 
@@ -86,7 +86,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 
                 else if (PassView.isEmpty() && EmailView.isEmpty())
                 {
-                    Toast.makeText(SignInActivity.this,"Fields Are Empty !",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignInActivity.this,R.string.FieldsAreEmpty,Toast.LENGTH_SHORT).show();
                 }
                 else if (!(PassView.isEmpty() && EmailView.isEmpty())) {
                     mFirebaseAuth.signInWithEmailAndPassword(EmailView,PassView).addOnCompleteListener(SignInActivity.this, new OnCompleteListener<AuthResult>() {
@@ -94,7 +94,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(!task.isSuccessful()){
 
-                                Toast.makeText(SignInActivity.this,"Log in Error !, Please Try again . ",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignInActivity.this,R.string.LoginError,Toast.LENGTH_SHORT).show();
 
                             }
                             else {
@@ -107,7 +107,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                 }
                 else
                 {
-                    Toast.makeText(SignInActivity.this,"Error occurred ! ",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignInActivity.this,R.string.Erroroccurred,Toast.LENGTH_SHORT).show();
 
 
                 }

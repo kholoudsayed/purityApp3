@@ -46,7 +46,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="-100dp"
         android:layout_marginBottom="50dp"
-        android:src="@drawable/circlet" />
+        android:src="@drawable/circlet"
+        android:contentDescription="Done"
+        />
 
     <ImageView
         android:id="@+id/circle2"
@@ -56,7 +58,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginRight="-90dp"
         android:layout_marginBottom="-40dp"
-        android:src="@drawable/circle" />
+        android:src="@drawable/circle"
+        android:contentDescription="Done"
+        />
 
     <ImageView
         android:id="@+id/circle3"
@@ -66,7 +70,9 @@
         android:layout_marginRight="-50dp"
         android:layout_marginBottom="-60dp"
         android:layout_toLeftOf="@id/circle2"
-        android:src="@drawable/circlet" />
+        android:src="@drawable/circlet"
+        android:contentDescription="Done"
+        />
 
     <ImageView
         android:id="@+id/circle4"
@@ -76,7 +82,9 @@
         android:layout_marginTop="-130dp"
         android:layout_marginRight="-100dp"
         android:layout_alignParentRight="true"
-        android:src="@drawable/circlet" />
+        android:src="@drawable/circlet"
+        android:contentDescription="Done"
+        />
 
     <ScrollView
         android:id="@+id/sv"
@@ -136,6 +144,7 @@
                         android:textStyle="bold" />
 
                     <EditText
+
                         android:id="@+id/etPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -164,6 +173,8 @@
 
                 <ImageButton
                     android:id="@+id/btRegister"
+                    android:contentDescription="Done"
+
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:background="@drawable/circle"

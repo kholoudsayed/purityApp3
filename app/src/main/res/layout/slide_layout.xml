@@ -43,6 +43,8 @@
         android:textStyle="bold" />
 
     <ImageView
+        android:contentDescription="Done"
+
         android:id="@+id/Image_Slid"
         android:layout_width="200dp"
         android:layout_height="200dp"

@@ -9,4 +9,20 @@
     <string name="emailkholoud">kholoudsayed621@gmail.com</string>
     <string name="DataSaved">Data Saved</string>
 <string name="DatanotSaved">Data not  Saved</string>
+<string name="RegisterComplete">Register Complete</string>
+    <string name="YouAreLoggedin">You Are Logged in.</string>
+    <string name="Erroroccurred">Error occurred </string>
+    <string name="PleaseLogin">Please Log in .</string>
+    <string name="FieldsAreEmpty">Fields Are Empty </string>
+    <string name="LoginError">Log in Error !, Please Try again .</string>
+    <string name="hello_i_am_kholoud_i_am_the_owner_of_this_program_this_project_was_the_capstone_in_udacity_adacnced_android_devolper_thanks_udacity_and_ntl_in_egypt_about_this_program_this_program_will_help_solve_the_problem_of_garbage_that_suffer_some_of_countries_by_delivering_the_user_to_the_cleaning_companies">Hello I am Kholoud I am The Owner Of this Program this project was the capstone in Udacity Adacnced android Devolper. thanks Udacity and NTL in Egypt ^_^ , about this Program : This program will help solve the problem of garbage that suffer some of Countries By delivering the user to the cleaning companies</string>
+    <string name="kholoud_sayed_zaki">Kholoud Sayed Zaki</string>
+    <string name="kholoudsayed621_mail_com">kholoudsayed621@mail.com</string>
+    <string name="number_bags">Number bags :</string>
+    <string name="litter_type">Litter type:</string>
+    <string name="plastic_metal_glass_or_mixed">Plastic,Metal,glass or mixed</string>
+    <string name="email">Email</string>
+    <string name="connect_us">Connect Us</string>
+
+
 </resources>

@@ -92,19 +92,5 @@ public class LitterActivity extends AppCompatActivity {
     }
 
 
-    public void ShowPopup(View v) {
-        myDialog = new Dialog(this);
 
-        TextView txtclose;
-        myDialog.setContentView(R.layout.popup);
-        txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
-        txtclose.setText("M");
-        txtclose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                myDialog.dismiss();
-            }
-        });
-        myDialog.show();
-    }
 }

@@ -33,6 +33,8 @@
         android:id="@+id/circle2"
         android:layout_width="182dp"
         android:layout_height="182dp"
+        android:contentDescription="Done"
+
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="-87dp"
@@ -42,6 +44,8 @@
     <ImageView
         android:id="@+id/circleTes"
         android:layout_width="134dp"
+        android:contentDescription="Done"
+
         android:layout_height="134dp"
         android:layout_below="@+id/toolbar"
         android:layout_alignParentLeft="true"
@@ -80,7 +84,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
-                        android:text="Email"
+                        android:text="@string/email"
                         android:textColor="@color/colorPurple"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -148,8 +152,9 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
                         android:id="@+id/photoReg"
-                        android:contentDescription="TODO"
-                        android:src="@drawable/user" />
+                        android:contentDescription="Done"
+                        android:src="@drawable/user"
+                        />
 
                 </RelativeLayout>
 

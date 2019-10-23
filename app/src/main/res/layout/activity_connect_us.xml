@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/et_to"
-            android:hint="kholoudsayed621@mail.com"
+            android:hint="@string/kholoudsayed621_mail_com"
             android:textStyle="bold"
 
             android:textColor="@color/colorPurple"/>
