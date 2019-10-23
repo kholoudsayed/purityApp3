@@ -20,7 +20,7 @@ public class ConnectUsActivity extends AppCompatActivity {
         etmessage=(EditText)findViewById(R.id.et_message);
         etsubject=(EditText)findViewById(R.id.et_subject);
         btnsend=(Button)findViewById(R.id.btn_send);
-        etto.setText("kholoudsayed621@gmail.com");
+        etto.setText(R.string.emailkholoud);
 
         btnsend.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -4,4 +4,9 @@
     <string name="appwidget_text">Your Name</string>
     <string name="configure">Configure</string>
     <string name="add_widget">Add widget</string>
+    <string name="LocationSaved">Location Saved</string>
+    <string name="LocationNotSaved">Location Not Saved</string>
+    <string name="emailkholoud">kholoudsayed621@gmail.com</string>
+    <string name="DataSaved">Data Saved</string>
+<string name="DatanotSaved">Data not  Saved</string>
 </resources>

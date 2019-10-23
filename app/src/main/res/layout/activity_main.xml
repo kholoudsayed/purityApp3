@@ -13,7 +13,7 @@
         android:background="@drawable/background">
 
         <ImageView
-
+            android:contentDescription="Location"
             android:id="@+id/LocationSignImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -29,6 +29,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
+            android:contentDescription="send data"
             android:id="@+id/ImageSend"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -49,7 +50,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintEnd_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2">
+            >
 
         </com.example.kholoud.app.CurvedBottomNavigationView>
 

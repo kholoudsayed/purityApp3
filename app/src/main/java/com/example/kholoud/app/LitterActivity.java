@@ -62,11 +62,11 @@ public class LitterActivity extends AppCompatActivity {
 
                                 if(task.isSuccessful())
                                 {
-                                    Toast.makeText(LitterActivity.this,"Data Saved " ,Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(LitterActivity.this,R.string.DataSaved ,Toast.LENGTH_SHORT).show();
                                 }
                                 else
                                 {
-                                    Toast.makeText(LitterActivity.this,"Data Not Saved " ,Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(LitterActivity.this,R.string.DatanotSaved ,Toast.LENGTH_SHORT).show();
 
                                 }
                             }

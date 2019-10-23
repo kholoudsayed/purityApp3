@@ -103,11 +103,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                                 if(task.isSuccessful())
                                 {
-                                    Toast.makeText(MapsActivity.this,"Location Saved " ,Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MapsActivity.this,R.string.LocationSaved ,Toast.LENGTH_SHORT).show();
                                 }
                                 else
                                 {
-                                    Toast.makeText(MapsActivity.this,"Location Not Saved " ,Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MapsActivity.this,R.string.LocationNotSaved ,Toast.LENGTH_SHORT).show();
 
                                 }
                             }
